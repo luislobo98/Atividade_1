@@ -65,16 +65,16 @@
             android:text="Forget Password?"
             android:textColor="@color/black"
             android:textSize="15sp" />
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="180dp"
+            android:clickable="true"
+            android:text="Sign In"
+            android:background="#C71415"/>
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="160dp"
-        android:clickable="true"
-        android:text="Sign In"
-        android:background="#C71415"/>
+
 </FrameLayout>
